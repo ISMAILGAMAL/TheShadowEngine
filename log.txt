@@ -1,0 +1,304 @@
+Recieved command: position startpos 
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 10000
+Thinking for: 9000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 434559
+Quiescent Nodes: 579492
+Depth Reached: 6
+Time Taken: 9.001000
+Table uses: 35865
+Table Occupancy: 237165 : 1.060210 %
+Table Overwrites:  29606
+Table Collisions:  1426
+   97 98 99 100 101 102 103 104 
+
+ Move: 114 110 98 113 107 98 110 114 
+t Move: 112 112 112 112 112 112 112 112 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 46 46 46 46 46 46 46 46 
+Best Move: 46 46 46 46 46 46 46 46 
+46 46 46 46 46 78 46 46 
+80 80 80 80 80 80 80 80 
+ 82 78 66 81 75 66 46 82 
+
+Recieved command: position startpos g1f3 b8c6
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 10000
+Thinking for: 9000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 222505
+Quiescent Nodes: 298206
+Depth Reached: 6
+Time Taken: 9.001000
+Table uses: 15036
+Table Occupancy: 357683 : 1.598968 %
+Table Overwrites:  41061
+Table Collisions:  3184
+   97 98 99 100 101 102 103 104 
+
+ Move: 114 110 98 113 107 98 110 114 
+t Move: 112 112 112 112 112 112 112 112 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 46 46 46 46 46 46 46 46 
+Best Move: 46 46 46 46 46 46 46 46 
+46 46 46 46 46 78 46 46 
+80 80 80 80 80 80 80 80 
+ 82 78 66 81 75 66 46 82 
+
+Recieved command: position startpos moves g1f3 b8c6
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 10000
+Thinking for: 9000
+bestmove e2e3
+Best Move: e2e3 4Nodes Evaluated: 183546
+Quiescent Nodes: 278775
+Depth Reached: 5
+Time Taken: 9.001000
+Table uses: 13292
+Table Occupancy: 486684 : 2.175647 %
+Table Overwrites:  58151
+Table Collisions:  5792
+   97 98 99 100 101 102 103 104 
+
+ Move: 114 46 98 113 107 98 110 114 
+t Move: 112 112 112 112 112 112 112 112 
+st Move: 46 46 110 46 46 46 46 46 
+est Move: 46 46 46 46 46 46 46 46 
+Best Move: 46 46 46 46 46 46 46 46 
+46 46 46 46 80 78 46 46 
+80 80 80 80 46 80 80 80 
+ 82 78 66 81 75 66 46 82 
+
+Recieved command: position fen 8/2k1p3/8/P7/3K2P1/8/6pp/8 b - - 0 1
+Initialized board to new FEN8/2k1p3/8/P7/3K2P1/8/6pp/8
+Recieved command: go movetime 2000
+Thinking for: 1800
+bestmove h2h1q
+Best Move: h2h1 qNodes Evaluated: 120289
+Quiescent Nodes: 126529
+Depth Reached: 7
+Time Taken: 1.801000
+Table uses: 11112
+Table Occupancy: 20183 : 0.090225 %
+Table Overwrites:  8440
+Table Collisions:  8
+   97 98 99 100 101 102 103 104 
+
+ Move: 46 46 46 46 46 46 46 46 
+t Move: 46 46 107 46 112 46 46 46 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 80 46 46 46 46 46 46 46 
+Best Move: 46 46 46 75 46 46 80 46 
+46 46 46 46 46 46 46 46 
+46 46 46 46 46 46 112 46 
+ 46 46 46 46 46 46 46 113 
+
+Recieved command: postition fen 8/2k1p3/8/P7/3K2P1/8/6pp/8 b - - 0 1
+Recieved command: go movetime 10000
+Thinking for: 9000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 630598
+Quiescent Nodes: 844129
+Depth Reached: 6
+Time Taken: 9.001000
+Table uses: 48790
+Table Occupancy: 343140 : 1.533955 %
+Table Overwrites:  40360
+Table Collisions:  2860
+   97 98 99 100 101 102 103 104 
+
+ Move: 114 110 98 113 107 98 110 114 
+t Move: 112 112 112 112 112 112 112 112 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 46 46 46 46 46 46 46 46 
+Best Move: 46 46 46 46 46 46 46 46 
+46 46 46 46 46 78 46 46 
+80 80 80 80 80 80 80 80 
+ 82 78 66 81 75 66 46 82 
+
+Recieved command: position fen 8/2k1p3/8/P7/3K2P1/8/6pp/8 b - - 0 1
+Initialized board to new FEN8/2k1p3/8/P7/3K2P1/8/6pp/8
+Recieved command: go movetime 10000
+Thinking for: 9000
+bestmove h2h1q
+Best Move: h2h1 Nodes Evaluated: 556443
+Quiescent Nodes: 680799
+Depth Reached: 9
+Time Taken: 9.001000
+Table uses: 158728
+Table Occupancy: 540704 : 2.417135 %
+Table Overwrites:  79059
+Table Collisions:  9400
+   97 98 99 100 101 102 103 104 
+
+ Move: 46 46 46 46 46 46 46 46 
+t Move: 46 46 107 46 112 46 46 46 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 80 46 46 46 46 46 46 46 
+Best Move: 46 46 46 75 46 46 80 46 
+46 46 46 46 46 46 46 46 
+46 46 46 46 46 46 112 46 
+ 46 46 46 46 46 46 46 113 
+
+Recieved command: position startpos 
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 12000
+Thinking for: 10800
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 722085
+Quiescent Nodes: 810449
+Depth Reached: 6
+Time Taken: 10.801000
+Table uses: 46752
+Table Occupancy: 328587 : 1.468898 %
+Table Overwrites:  39466
+Table Collisions:  2639
+   97 98 99 100 101 102 103 104 
+
+ Move: 114 110 98 113 107 98 110 114 
+t Move: 112 112 112 112 112 112 112 112 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 46 46 46 46 46 46 46 46 
+Best Move: 46 46 46 46 46 46 46 46 
+46 46 46 46 46 78 46 46 
+80 80 80 80 80 80 80 80 
+ 82 78 66 81 75 66 46 82 
+
+Recieved command: position startpos 
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetine 111112
+Recieved command: position startpos
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 11112
+Thinking for: 10000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 1333548
+Quiescent Nodes: 703994
+Depth Reached: 6
+Time Taken: 10.001000
+Table uses: 40488
+Table Occupancy: 284141 : 1.270209 %
+Table Overwrites:  36712
+Table Collisions:  2056
+   97 98 99 100 101 102 103 104 
+
+ Move: 114 110 98 113 107 98 110 114 
+t Move: 112 112 112 112 112 112 112 112 
+st Move: 46 46 46 46 46 46 46 46 
+est Move: 46 46 46 46 46 46 46 46 
+Best Move: 46 46 46 46 46 46 46 46 
+46 46 46 46 46 78 46 46 
+80 80 80 80 80 80 80 80 
+ 82 78 66 81 75 66 46 82 
+
+Recieved command: position startpos
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 11112
+Thinking for: 10000
+bestmove d2d4
+Best Move: d2d4 
+Nodes Evaluated: 2112368
+Quiescent Nodes: 1248840
+Depth Reached: 6
+Time Taken: 10.001000
+Table uses: 61058
+Table Occupancy: 493692 : 2.206975 %
+Table Overwrites:  48278
+Table Collisions:  5908
+
+Recieved command: position startpos
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 11112
+Thinking for: 10000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 1804111
+Quiescent Nodes: 951553
+Depth Reached: 6
+Time Taken: 10.001000
+Table uses: 55707
+Table Occupancy: 388984 : 1.738894 %
+Table Overwrites:  43146
+Table Collisions:  3763
+
+Recieved command: position startpos 
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 11112
+Thinking for: 10000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 1809836
+Quiescent Nodes: 954655
+Depth Reached: 6
+Time Taken: 10.001000
+Table uses: 55956
+Table Occupancy: 390451 : 1.745452 %
+Table Overwrites:  43174
+Table Collisions:  3740
+
+Recieved command: position startpos g1f3
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 1000
+Thinking for: 900
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 162605
+Quiescent Nodes: 87927
+Depth Reached: 6
+Time Taken: 0.901000
+Table uses: 5549
+Table Occupancy: 427431 : 1.910765 %
+Table Overwrites:  45225
+Table Collisions:  4532
+
+Recieved command: position startpos moves g1f3
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 1000
+Thinking for: 900
+bestmove b8c6
+Best Move: b8c6 
+Nodes Evaluated: 151924
+Quiescent Nodes: 83898
+Depth Reached: 5
+Time Taken: 0.901000
+Table uses: 5304
+Table Occupancy: 464630 : 2.077058 %
+Table Overwrites:  47344
+Table Collisions:  5321
+
+Recieved command: position startpos
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 11112
+Thinking for: 10000
+bestmove g1f3
+Best Move: g1f3 
+Nodes Evaluated: 1487070
+Quiescent Nodes: 786435
+Depth Reached: 6
+Time Taken: 10.001000
+Table uses: 45437
+Table Occupancy: 317285 : 1.418374 %
+Table Overwrites:  39649
+Table Collisions:  2450
+
+Recieved command: position startpos moves g1f3
+Initialized board to new startpos and cleared Transposition Table
+Recieved command: go movetime 1000
+Thinking for: 900
+bestmove b8c6
+Best Move: b8c6 
+Nodes Evaluated: 193144
+Quiescent Nodes: 100844
+Depth Reached: 5
+Time Taken: 0.901000
+Table uses: 5939
+Table Occupancy: 361850 : 1.617596 %
+Table Overwrites:  41878
+Table Collisions:  3212
+

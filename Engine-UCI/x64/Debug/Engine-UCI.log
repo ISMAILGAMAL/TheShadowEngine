@@ -1,0 +1,4 @@
+﻿  logic.cpp
+D:\Programming\C++\Engine-UCI\logic.cpp(683,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\C++\Engine-UCI\logic.cpp(686,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\C++\Engine-UCI\logic.cpp(1128,82): error C2676: binary '/': 'std::string' does not define this operator or a conversion to a type acceptable to the predefined operator
