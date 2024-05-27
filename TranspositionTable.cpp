@@ -35,6 +35,10 @@ void TranspositionTable::initializePieceKeys() {
 void TranspositionTable::storeTransposition(uint64_t key, uint8_t flag, uint8_t depth, int value, Move move) {
 	int hash = key % tableSize;
 
+	// Clear the table if it's full.
+	if (getFillPercentage() > 99)
+		clear();
+
 	// First time for this hash.
 	if (table[hash].key == 0) {
 		entriesCount++;
@@ -140,12 +144,16 @@ uint64_t TranspositionTable::generateZobristKey(int board[8][8]) {
 	return key;
 }
 
-string TranspositionTable::getFillPercentage() {
+string TranspositionTable::getFillData() {
 	string output = "";
 	output += "Table Occupancy: " + to_string(entriesCount) + " : " + to_string((double(entriesCount) / double(tableSize)) * 100) + " %" + '\n';
 	output += "Table Overwrites:  " + to_string(overwrites) + '\n';
 	output += "Table Collisions:  " + to_string(collisions) + '\n';
 	return output;
+}
+
+double TranspositionTable::getFillPercentage() {
+	return (double(entriesCount) / double(tableSize)) * 100;
 }
 
 void TranspositionTable::clear() {

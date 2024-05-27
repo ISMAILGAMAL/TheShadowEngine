@@ -958,8 +958,10 @@ int Minimax::minimax(GameState& state, int plyRemaining, int depth, int alpha, i
         if (plyFromRoot == 0) {
             Transposition pos;
             table->probeTransposition(state.zobristKey, pos);
-            bestMoveThisIteration = pos.move;
-            bestScoreThisIteration = pos.value;
+            if (!(abs(pos.value) > 1e9 && pos.IsQuiscence())) {
+                bestMoveThisIteration = pos.move;
+                bestScoreThisIteration = pos.value;
+            }
         }
         tableUses++;
         return transpositionValue;

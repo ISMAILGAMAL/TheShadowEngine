@@ -54,7 +54,8 @@ public:
 	void storeTransposition(uint64_t key, uint8_t flag, uint8_t depth, int value, Move move);
 	bool probeTransposition(uint64_t key, Transposition& trans);
 	int lookupEvaluation(uint64_t key, int depth, int alpha, int beta, bool& found, bool Quiescence);
-	string getFillPercentage();
+	string getFillData();
+	double getFillPercentage();
 	void clear();
 	uint64_t generateZobristKey(int board[8][8]);
 };

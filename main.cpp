@@ -13,12 +13,28 @@ using namespace std;
 
 struct Logger {
     ofstream logFile;
+    static constexpr int maxSize = 100 * 1024; // 100 KB
 
     Logger(string& filename) {
         logFile.open(filename, ios::app);
+        ifstream file(filename, std::ios::binary | std::ios::ate);
+
+        long long fileSize = file.tellg();
+
+        if (fileSize > maxSize) {
+            clearLogFile(filename);
+        }
 
         if (!logFile.is_open()) {
             cerr << "Failed to open log file: " << filename << endl;
+        }
+    }
+
+    void clearLogFile(const std::string& filename) {
+        std::ofstream clearFile(filename, std::ios::trunc);
+        if (!clearFile.is_open()) {
+            std::cerr << "Failed to clear log file: " << filename << std::endl;
+            return;
         }
     }
 
@@ -128,7 +144,7 @@ struct ChessEngine {
         cout << output << endl;
         string logs = "";
         logs += AI.displayStatistics(state);
-        logs += Ttable.getFillPercentage();
+        logs += Ttable.getFillData();
         state.makeMove(move);
         logger.log(output);
         logger.log(logs);
@@ -187,7 +203,7 @@ struct ChessEngine {
 int main()
 {
     string logFileName = "log.txt";
-    ChessEngine bot(1024, logFileName);
+    ChessEngine bot(400, logFileName);
 
     bot.uciLoop();
 
