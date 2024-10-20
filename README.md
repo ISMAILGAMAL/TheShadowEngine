@@ -2,6 +2,10 @@
 
 A chess engine made entirely in C++ utilizing negamax, iterative deepening, quiescence search, transposition tables and move ordering using MVV-LVA (Most valuable victim-Least valuable aggressor).
 
+It was able to achieve 1819 ELO on rapid matches on lichess which says that it's better than 82.7% of rapid players on lichess.
+
+Here's the Ai's lichess account: https://lichess.org/@/TheShadowEngine
+
 ## Installation:
 
 Copy the repository to your local machine:
