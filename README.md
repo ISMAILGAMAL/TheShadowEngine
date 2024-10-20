@@ -6,6 +6,8 @@ It was able to achieve 1819 ELO on rapid matches on lichess which says that it's
 
 Here's the Ai's lichess account: https://lichess.org/@/TheShadowEngine
 
+It was uploaded to render's cloud services as a docker container and played 3,456 matches before being suspended.
+
 ## Installation:
 
 Copy the repository to your local machine:
